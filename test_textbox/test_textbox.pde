@@ -11,18 +11,19 @@ int mode;
 //textbox variables
 boolean send = false;
 
+/*
 int i=0;
 int n = 1;
 while (i<n) {
   String message[] = "";
   i++;
 }
-
+*/
 
 void setup() {
   size(800, 800);
   rectMode(CENTER);
-  message = new int[n];
+  //message = new int[n];
   mode = INTRO;
   layout();
 }
