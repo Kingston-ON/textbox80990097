@@ -106,7 +106,7 @@ class Textbox {
 
 void layout() {
   Textbox message = new Textbox(width / 2, 150, 300, 100);
-  Textbox message[i] = new Textbox(width / 2, 350, 300, 100);
+  Textbox message2 = new Textbox(width / 2, 350, 300, 100);
   textboxes.add(message);
   textboxes.add(message2);
 }
